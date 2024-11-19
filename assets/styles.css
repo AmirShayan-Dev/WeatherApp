@@ -1,0 +1,13 @@
+/* ======= Basic set up ======= */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== Header ====== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
