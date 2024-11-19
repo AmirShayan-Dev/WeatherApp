@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- ====== BoxIcon ====== -->
+    <!-- ====== Poppins Font ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ====== Vazirmtn Font ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vazirmatn:wght@100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -15,18 +25,22 @@
     <title>Star Weather</title>
   </head>
   <body>
+    <!-- ==== Header Section ==== -->
     <div class="header">
       <div class="title__div">
         <h3>Starweather</h3>
       </div>
-
       <div class="pick__location">
-        <!-- Down Arrow -->
-        <i class="bx bxs-down-arrow"></i>
-        <!-- Up Arrow -->
-        <i class="bx bxs-up-arrow"></i>
-        <!-- Location Image -->
+        <img src="./assets/images/arrow_drop_down.svg" alt="" />
+        <h3 class="choose__city_text">انتخاب شهر</h3>
         <img src="./assets/images/location.svg" alt="Location" />
+      </div>
+    </div>
+
+    <!-- ==== Body Section ==== -->
+    <div class="body__div">
+      <div class="image__weather">
+        <img src="./assets/images/sunny.svg" alt="" />
       </div>
     </div>
 

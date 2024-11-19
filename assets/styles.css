@@ -7,7 +7,47 @@ html {
 
 /* ====== Header ====== */
 .header {
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+.title__div {
+  font-family: "Poppins", sans-serif;
+  color: #051320;
+}
+.pick__location {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Vazirmatn", sans-serif;
+}
+.up {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+.down {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  padding-top: 0.2rem;
+}
+.choose__city_text {
+  color: #b3b3b3;
+  font-size: 16px;
+}
+
+/* ===== body Section ===== */
+.body__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.image__weather {
 }
