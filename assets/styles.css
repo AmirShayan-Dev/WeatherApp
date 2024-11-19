@@ -44,10 +44,39 @@ html {
 /* ===== body Section ===== */
 .body__div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .image__weather {
+}
+.temperature__div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+.number__temperature {
+  font-family: "Vazirmatn", sans-serif;
+}
+.icon__temp {
+  padding-bottom: 29px;
+  padding-left: 2px;
+}
+.number__temperature {
+  font-family: "Vazirmatn", sans-serif;
+  margin: 0;
+}
+
+.info__location_div h3 {
+  margin: 0;
+}
+.info__location_div {
+  color: #b3b3b3;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0;
 }
