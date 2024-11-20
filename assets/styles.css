@@ -47,10 +47,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .image__weather {
+  width: 120px;
+  height: 120px;
 }
 .temperature__div {
   display: flex;
@@ -79,4 +81,30 @@ html {
   font-size: 13px;
   font-weight: 400;
   margin-top: 0;
+}
+.wind__humidity_div {
+  width: 343px;
+  height: 96px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  margin-top: 24px;
+  font-family: "Vazirmatn", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.humidity__div {
+  display: flex;
+  justify-content: space-between;
+}
+.humidity__data {
+  /* display: flex;
+  justify-content: space-around; */
+}
+.number {
+  font-size: 14px;
+  font-weight: 400;
+}
+.humidity__title_text {
+  font-size: 14px;
+  font-weight: 400;
 }
