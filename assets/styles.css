@@ -83,7 +83,7 @@ html {
   margin-top: 0;
 }
 .wind__humidity_div {
-  width: 343px;
+  width: 320px;
   height: 96px;
   border: 1px solid #efefef;
   border-radius: 10px;
@@ -96,10 +96,7 @@ html {
   display: flex;
   justify-content: space-between;
 }
-.humidity__data {
-  /* display: flex;
-  justify-content: space-around; */
-}
+
 .number {
   font-size: 14px;
   font-weight: 400;
@@ -107,4 +104,53 @@ html {
 .humidity__title_text {
   font-size: 14px;
   font-weight: 400;
+}
+.next__days_title {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  width: 340px;
+  margin-top: 32px;
+}
+.next_days_container {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  margin-top: 12px;
+}
+.day__div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 88px;
+  border: 0.8px solid #efefef;
+  border-radius: 8px;
+}
+.weather__icon {
+  width: 32px;
+  height: 32px;
+}
+.temp__days_div {
+  display: flex;
+}
+.number__temperature_other_days {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.icon__temp_days {
+  width: 3px;
+  height: 3px;
+}
+.days__name {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
 }
